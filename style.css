@@ -1,0 +1,134 @@
+/* Body */
+body{
+    background-color: #Eee2dc; 
+}
+
+/* Headers */
+h1, h2, h3, h4, h5, h6
+{
+    color: rgb(224, 139, 147);
+    font-weight: strong;
+    margin-bottom: 0px;
+    margin-top: 8px;
+}
+
+/* Paragraph Element */
+.par{
+  color: #6D8092;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px; 
+ }
+
+ p{
+  color: #6D8092;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px; 
+ }
+
+
+ .card {
+  bottom: 5%;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+  max-width:100%;
+  overflow-x: hidden;
+}
+body {
+  margin-bottom: 60px;  /* Margin bottom by footer height */
+  padding:10px 30px 5px 0px;
+  margin-left: 0px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 20px; /* Vertically center the text there */
+  background-color: #666666;
+  color:white;
+  border-top: 4px solid rgb(224, 139, 147);
+}
+
+.navbar-brand {
+
+  width: 140px;
+  height: 59px;
+  background-color: rgb(224, 139, 147);
+  margin: -22px 0px -20px 5%;
+  padding: 14px 0px 10px 0px;
+  text-align: center;
+  font-family:Tahoma;
+  font-size: 25px;
+  }
+  
+  img {
+    float: left;
+  }
+
+  .m {
+  margin-top: 30px;
+  }
+
+  .center {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+
+.format {
+  padding:50px 60px 70px 0px;
+}
+
+.border { 
+border: 20x solid  rgb(224, 139, 147); 
+}
+
+
+img.mf {
+width:100%;      
+}
+
+.bg-w {
+  background-color:white;
+}
+
+.comp{
+margin-bottom: 35px; 
+margin-top: 35px
+}
+
+.card_m{ 
+  margin:15px 0px 0px 40px;
+}
+
+.imgb {
+  float: left;
+  border: solid 2px rgb(11, 95, 173);
+  margin: -2px;
+  overflow: hidden;
+  z-index: 9999 !important;
+}
+
+.imgn {
+  float: left;
+  border: solid 2px white;
+  margin: -2px;
+  overflow: hidden;
+}
+
+
+img.h:hover {
+  border: solid 2px rgb(224, 139, 147);
+  margin: -2px;
+  overflow: hidden;
+  float: left;
+  z-index: 9999 !important;
+}
+
+
+.pp {
+  padding:0px 1px 0px 0px;
+}
